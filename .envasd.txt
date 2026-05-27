@@ -1,0 +1,15 @@
+APP_NAME="MySecureAPI"
+APP_ENV=production
+APP_KEY=base64:YourGeneratedKeyHere
+APP_DEBUG=false
+APP_URL=http://myapi.local
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=simple_app
+DB_USERNAME=root
+DB_PASSWORD=YourStrongPasswordHere
+
+SESSION_DRIVER=database
+SANCTUM_STATEFUL_DOMAINS=myapi.local
